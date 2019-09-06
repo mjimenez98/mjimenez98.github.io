@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
+<div class="container-fluid bg-dark pt-5 pb-5">
+    <h4 class="text-muted pl-3 pt-5">@{{ site.github_username }}</h4>
+    <h1 class="display-3 text-white pl-3 pb-5">{{ page.title }}</h1>
+</div>
 
 <div class="container-fluid">
-    {%- if page.title -%}
-        <h1 class="page-heading text-center">{{ page.title }}</h1>
-    {%- endif -%}
-
     {{ content }}
 </div>
