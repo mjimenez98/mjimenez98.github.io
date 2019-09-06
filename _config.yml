@@ -32,7 +32,6 @@ github_username:  mjimenez98
 # Build settings
 sass:
   sass_dir: css
-theme:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
