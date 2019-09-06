@@ -30,9 +30,12 @@ linkedin_username: mjimenez98
 github_username:  mjimenez98
 
 # Build settings
-theme: minima
+sass:
+  sass_dir: css
+theme:
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
