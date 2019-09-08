@@ -4,6 +4,10 @@
 
 @import 'bootstrap/bootstrap';
 
+a:hover  {
+  text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -68,9 +72,9 @@
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid lightgray;
+  border: medium solid #f2f2f2;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent lightgray;
+  border-color: transparent transparent transparent #f2f2f2;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -82,9 +86,9 @@
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid lightgray;
+  border: medium solid #f2f2f2;
   border-width: 10px 10px 10px 0;
-  border-color: transparent lightgray transparent transparent;
+  border-color: transparent #f2f2f2 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -95,7 +99,7 @@
 /* The actual content */
 .timeline-content {
   padding: 20px 30px;
-  background-color: lightgray;
+  background-color: #f2f2f2;
   position: relative;
   border-radius: 6px;
 }
@@ -119,7 +123,7 @@
     left: 60px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
-    border-color: transparent lightgrey transparent transparent;
+    border-color: transparent #f2f2f2 transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
