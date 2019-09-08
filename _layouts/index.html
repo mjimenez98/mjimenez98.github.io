@@ -41,18 +41,18 @@ layout: default
             </div>
         </div>
         <div class="timeline">
-            <div class="timeline-container timeline-container-left">
-                <div class="timeline-content">
-                    <h2>2017</h2>
-                    <p>Lorem ipsum..</p>
+            {% for item in page.timeline %}
+                <div class="timeline-container timeline-card-{% cycle "left", "right" %}">
+                    <div class="timeline-content">
+                        <h4>{{ item.title }}</h4>
+                        <h5>{{ item.subtitle | markdownify }}</h5>
+                        <h6>{{ item.year }}</h6>
+                        <div class="text-justify">
+                            <p>{{ item.description | markdownify }}</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="timeline-container timeline-container-right">
-                <div class="timeline-content">
-                    <h2>2016</h2>
-                    <p>Lorem ipsum..</p>
-                </div>
-            </div>
+            {% endfor %}
         </div>
     </div>
 </div>
