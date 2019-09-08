@@ -2,19 +2,21 @@
 layout: default
 ---
 <div>
-    <div class="container-fluid bg-dark pt-5 pb-5">
-        <div class="pl-3">
-            <div>
+    <!--Header -->
+    <div class="container bg-dark mw-100 py-5">
+        <div class="row align-items-center pl-3">
+            <div class="col-md-12">
                 <h4 class="text-muted pt-5">@{{ site.github_username }}</h4>
             </div>
-            <div>
+            <div class="col-md-12">
                 <h1 class="display-3 text-white pb-5">{{ page.title }}</h1>
             </div>
         </div>
     </div>
 
-    <div class="container h-100 mw-100">
-        <div class="row px-3 pt-5 bg-light">
+    <!-- About Me -->
+    <div class="container mw-100">
+        <div class="row bg-light px-3 py-5">
             <div class="col-md-4 text-center mb-4">
                 <img src="/images/about.jpg" class="rounded-circle img-fluid" alt="Me!">
             </div>
@@ -25,6 +27,30 @@ layout: default
                 </div>
                 <div class="text-justify">
                     <p>{{ page.about | markdownify }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Timeline -->
+    <div class="container py-5">
+        <div class="row justify-content-center px-3">
+            <div class="col-md-4 pb-4">
+                <h2 class="text-md-center">Timeline</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="timeline">
+            <div class="timeline-container timeline-container-left">
+                <div class="timeline-content">
+                    <h2>2017</h2>
+                    <p>Lorem ipsum..</p>
+                </div>
+            </div>
+            <div class="timeline-container timeline-container-right">
+                <div class="timeline-content">
+                    <h2>2016</h2>
+                    <p>Lorem ipsum..</p>
                 </div>
             </div>
         </div>
