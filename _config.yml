@@ -28,7 +28,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: https://mjimenez98.github.io
 linkedin_username: mjimenez98
 github_username:  mjimenez98
-email: miguel.jimenez@spaceconcordia.ca
 
 # Build settings
 sass:
