@@ -2,8 +2,8 @@ a:hover  {
   text-decoration: none;
 }
 
-/* 404 */
-.container.error {
+/* For big messages that should take the whole page (e.g. 404, redirect) */
+.container.message {
   height: 100vh;
   overflow:hidden;
 }
