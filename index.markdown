@@ -12,10 +12,24 @@ about: |
   Besides coding and video games, music, movies, hiking, traveling and soccer are my jam. Check out my
   [music collection]() and [travel journals]()!
 timeline:
+  - title: Software Engineering Intern - Sponsors
+    subtitle: |
+      [GitHub](https://github.com){:target="_blank"} - Montreal, Quebec (Remote)
+    year: Jun 2020 - Aug 2020
+    description: |
+      • Designed and created a Slack bot that allows more than 500 developers to interact with merge queues via Slack.
+      >
+      • Sketched and implemented over 5 responses for the bot using the Slack's Block Kit Builder. These included multiple formats like modals, attachments and messages.
+      >
+      • Among the features developed, there were obtaining the state of the queue, and adding pull requests to the queue using Slack commands and modals. These are actions that are used on a daily basis for almost every deployment.
+      >
+      • Maintained aspects of GitHub Sponsors including adding measures in the onboarding process to comply with OFAC policies.
+      >
+      • Technologies: Ruby on Rails, HTML, CSS, TypeScript, Express JS, Slack Web API.
   - title: Software Engineering Intern - Marketplace
     subtitle: |
       [GitHub](https://github.com){:target="_blank"} - San Francisco, California
-    year: Jun 2019 - August 2019
+    year: Jun 2019 - Aug 2019
     description: |
       • Created a RESTful microservice to categorize more than 150 GitHub Apps using machine learning. This has made the number of apps in Marketplace double. 
       >
@@ -26,7 +40,7 @@ timeline:
       • Technologies: Ruby on Rails, HTML, CSS, GraphQL, SQL, Docker, Kubernetes.
   - title: Amazon Student Prime Ambassador (Contract)
     subtitle: |
-      [Student Life Network & Parent Life Network](https://studentlifenetwork.com){:target="_blank"} - Montreal, Quebec
+      [Student Life Network & Parent Life Network](https://accounts.studentlifenetwork.com/){:target="_blank"} - Montreal, Quebec
     year: Aug 2018 - Feb 2019
     description: |
       • Increased awareness of the Prime Student membership and its benefits to students by having more than 250 interactions every week.
