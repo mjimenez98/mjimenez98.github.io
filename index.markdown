@@ -2,15 +2,10 @@
 title: Miguel Jimenez
 layout: index
 about: |
-  Junior Computer Science Student at Concordia University. I have interned at [GitHub](https://github.com){:target="_blank"} 
-  and the Montreal start-up [E-Panneur](https://e-panneur.ca){:target="_blank"} as a Rails web developer. 
-  I have developed a special relationship with REST, APIs and building and coming up with exciting ideas. I like to 
-  think this software development path started when my godfather gave me a PlayStation 2 🎮 when I was 5. Since then, 
-  I have not stopped playing video games, which led me to create and think of spin-offs and mods I could write. 
-  And to be able to do that I needed to know how to code, so here I am 🙋‍♂️️.
-  >
-  Besides coding and video games, music, movies, hiking, traveling and soccer are my jam. Check out my
-  [music collection]() and [travel journals]()!
+  Junior Computer Science Student at Concordia University. I have interned twice at [GitHub](https://github.com){:target="_blank"} and once at the Montreal start-up [E-Panneur](https://e-panneur.ca){:target="_blank"} as a Rails web developer. 
+  I have developed a special relationship with REST, APIs and building and coming up with exciting ideas. I like to think this software development path started when my godfather gave me a PlayStation 2 🎮 when I was 5. Since then, I have not stopped playing video games, which led me to create and think of spin-offs and mods I could write. And to be able to do that I needed to know how to code, so here I am 🙋‍♂️️. 
+  > 
+  Besides coding and video games, music, movies, traveling and soccer are my jam.
 timeline:
   - title: Software Engineering Intern - Sponsors
     subtitle: |
@@ -25,7 +20,7 @@ timeline:
       >
       • Maintained aspects of GitHub Sponsors including adding measures in the onboarding process to comply with OFAC policies.
       >
-      • Technologies: Ruby on Rails, HTML, CSS, TypeScript, Express JS, Slack Web API.
+      • Technologies: Ruby on Rails, HTML, CSS, TypeScript, Express, Slack Web API.
   - title: Software Engineering Intern - Marketplace
     subtitle: |
       [GitHub](https://github.com){:target="_blank"} - San Francisco, California
@@ -37,7 +32,7 @@ timeline:
       >
       • Managed the project along with my team by creating and tracking issues, prioritizing tasks and evaluating results. 
       >
-      • Technologies: Ruby on Rails, HTML, CSS, GraphQL, SQL, Docker, Kubernetes.
+      • Technologies: Ruby on Rails, HTML, CSS, GraphQL, MySQL, Docker, Kubernetes.
   - title: Amazon Student Prime Ambassador (Contract)
     subtitle: |
       [Student Life Network & Parent Life Network](https://accounts.studentlifenetwork.com/){:target="_blank"} - Montreal, Quebec
@@ -59,7 +54,7 @@ timeline:
       >
       • Worked closely with founder and engineering lead in an open concept environment, which allowed to learn about management, customer service, innovation and setting short, medium and long-term goals.
       >
-      • Technologies: Ruby on Rails, JavaScript, HTML, CSS, SQL, Git, AWS (EC2), JIRA.
+      • Technologies: Ruby on Rails, JavaScript, HTML, CSS, MySQL, Git, JIRA.
   - title: Bachelor of Computer Science
     subtitle: Concordia University - Montreal, Quebec
     year: Sep 2016 - May 2021
