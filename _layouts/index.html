@@ -4,7 +4,7 @@ layout: default
 <div>
   <!--Header -->
   <div class="container bg-dark mw-100 py-5">
-    <div class="row align-items-center pl-3">
+    <div class="row align-items-center section-title">
       <div class="col-md-12">
         <h4 class="text-muted pt-5">@{{ site.github_username }}</h4>
       </div>
@@ -21,12 +21,20 @@ layout: default
         <img src="/images/about.png" class="rounded-circle img-about" alt="Me!">
       </div>
       <div class="col-md-8">
-        <div class="section-title">
-          <h2>About Me</h2>
-          <hr>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="section-title">
+              <h2>About Me</h2>
+              <hr>
+            </div>
+          </div>
         </div>
-        <div class="text-justify">
-          <p>{{ page.about | markdownify }}</p>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-justify">
+              <p>{{ page.about | markdownify }}</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -35,26 +43,28 @@ layout: default
   <!-- Timeline -->
   <div class="container py-5">
     <div class="row justify-content-center px-3">
-      <div class="col-md-8"> 
+      <div class="col-md-6"> 
         <div class="section-title text-center mb-4">
           <h2>Timeline</h2>
           <hr>
         </div>
       </div>
     </div>
-    <div class="timeline">
-      {% for item in page.timeline %}
-        <div class="timeline-container timeline-card-{% cycle 'left', 'right' %}">
-          <div class="timeline-content">
-            <h4>{{ item.title }}</h4>
-            <h5>{{ item.subtitle | markdownify }}</h5>
-            <h6>{{ item.year }}</h6>
-            <div class="text-justify">
-              <p>{{ item.description | markdownify }}</p>
+    <div class="row mt-4">
+      <div class="timeline">
+        {% for item in page.timeline %}
+          <div class="timeline-container timeline-card-{% cycle 'left', 'right' %}">
+            <div class="timeline-content">
+              <h4>{{ item.title }}</h4>
+              <h5>{{ item.subtitle | markdownify }}</h5>
+              <h6>{{ item.year }}</h6>
+              <div class="text-justify">
+                <p>{{ item.description | markdownify }}</p>
+              </div>
             </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
