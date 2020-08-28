@@ -10,7 +10,7 @@
       <div class="navbar-nav">
         {% for item in site.data.navigation.pages %}
           <a class="nav-item nav-link {% if item.url == page.url %}active{% endif %}" href="{{ item.url }}"
-             target="{% if item.title == "CV" %}_blank{% endif %}">{{ item.title }}
+             target="{% if item.title == 'CV' %}_blank{% endif %}">{{ item.title }}
             <span class="sr-only">(current)</span></a>
         {% endfor %}
       </div>

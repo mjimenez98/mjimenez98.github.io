@@ -5,5 +5,69 @@ a:hover  {
 /* For big messages that should take the whole page (e.g. 404, redirect) */
 .container.message {
   height: 100vh;
-  overflow:hidden;
+  overflow: hidden;
+}
+
+.img-about {
+  height: auto;
+}
+
+.section-title {
+  text-align: center;
+}
+
+@include media-breakpoint-up(xsm) {
+  html {
+    font-size: 1.2rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 75%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.2rem;
+  }
+
+  .img-about {
+    max-width: 60%;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  html {
+    font-size: 2em;
+  }
 }
