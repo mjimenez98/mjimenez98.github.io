@@ -16,7 +16,17 @@ a:hover  {
   text-align: center;
 }
 
-@include media-breakpoint-up(xsm, sm) {
+@include media-breakpoint-up(xsm) {
+  html {
+    font-size: 1.2rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@include media-breakpoint-up(sm) {
   html {
     font-size: 1.4rem;
   }
@@ -38,10 +48,26 @@ a:hover  {
 
 @include media-breakpoint-up(lg) {
   html {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .img-about {
     max-width: 60%;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 3000px) {
+  html {
+    font-size: 2em;
   }
 }
