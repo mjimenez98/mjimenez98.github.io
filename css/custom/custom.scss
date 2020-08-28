@@ -9,12 +9,39 @@ a:hover  {
 }
 
 .img-about {
-  max-width: 75%;
   height: auto;
 }
 
-@media only screen and (max-width: 767px) {
-  .section-title {
-    text-align: center;
+.section-title {
+  text-align: center;
+}
+
+@include media-breakpoint-up(xsm, sm) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 50%;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+
+  .img-about {
+    max-width: 75%;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.5rem;
+  }
+
+  .img-about {
+    max-width: 60%;
   }
 }
